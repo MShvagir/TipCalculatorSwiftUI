@@ -1,13 +1,13 @@
 //
 //  ContentView.swift
-//  TipCalculator
+//  TipCalculator (using SwiftUI)
 //
 //  Created by Marina Shvagir on 14.05.2022.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     
     @State private var checkAmount = ""
     @State private var numberOfPeople = 2
@@ -55,8 +55,8 @@ struct ContentView: View {
 }
 
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }
